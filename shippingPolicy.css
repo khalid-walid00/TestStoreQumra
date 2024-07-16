@@ -1,0 +1,23 @@
+.mt-40px{
+    margin-top: 40px;
+}
+.h-screen{
+    height: 100vh;
+}
+.w-full{
+    width: 100%;
+}
+.justify-center{
+     justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+/* spicial footer */
+footer
+{
+    background-color: #fbfbfb;
+    padding: 50px 0;
+    margin-top: 50px;
+
+}
