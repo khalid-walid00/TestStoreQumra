@@ -339,7 +339,7 @@ footer >  div:nth-child(1) p
 
 .swiper {
     width: 100%;
-    height: 67vh;
+    /* height: 67vh; */
     margin-top: 5%;
   }
 
@@ -383,6 +383,15 @@ footer >  div:nth-child(1) p
     font-size: 1.1rem;
   
 }
+.text-base{
+    font-size: 1rem;
+}
+.text-md{
+    font-size: .875rem;
+}
+.text-sm{
+    font-size: .75rem;
+}
 /* style */
 .font-bold {
     font-weight: 700;
@@ -393,6 +402,10 @@ footer >  div:nth-child(1) p
 .font-extrabold{
     font-weight: 800;
 }
+.font-base{
+    font-family: "Almarai";
+}
+
 /*////////////// color//////////// */
 /* text */
 .text-yellow-500{
@@ -401,7 +414,9 @@ footer >  div:nth-child(1) p
 .text-gray{
     color:rgb(107 114 128 )
  }
-
+.text-white{
+    color: white;
+}
  /* spacing */
  .mt-1{
     margin-top: 0.25rem;
@@ -513,10 +528,36 @@ footer >  div:nth-child(1) p
 .jucstify-center {
     justify-content: center;
 }
+.justify-start{
+    justify-content: start;
+}
+.justify-end{
+    justify-content: end;
+}
 .text-center{
     text-align: center;
 }
-
+.flex-col{
+     flex-direction: column;
+}
+.item-start{
+    align-items: start !important;
+}
+.flex-1{
+    flex: 1;
+}
+.grid{
+    display: grid;
+}
+.grid-columns-5{
+    grid-template-columns: repeat(5, 1fr) !important;
+}
+.grid-columns-4{
+    grid-template-columns: repeat(4, 1fr) !important;
+}
+.grid-columns-3{
+    grid-template-columns: repeat(3, 1fr) !important;
+}
 /*///////////// width ////////*/
 
 /* present */
@@ -556,8 +597,77 @@ footer >  div:nth-child(1) p
 .w-11-12{
     width: 91.666667%;
 }
+.w-11-5-12{
+    width: 95.666667%;
 
+}
+.w-max{
+    width: max-content;
+}
 /* list */
 .doc-inside{
     list-style-position: inside;
 }
+.doc-none{
+    list-style-type: none;
+}
+/* overflow */
+
+.overFlow-y-auto{
+    overflow-y: auto;
+}
+.overFlow-x-hidden{
+    overflow-x: hidden;
+}
+/* ather */
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+
+/* animation */
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px);
+    }
+    60% {
+      transform: translateY(-7px);
+    }
+  }
+  
+  .animate-bounce {
+    animation: bounce 1.8s ease infinite;
+  }
+  /* media */
+
+  @media (min-width: 1025px) {
+    .swipper-container{
+       display: flex !important;
+    }
+    .w-Swipper{
+        width: 41.666667%;
+    }
+  }
+  
+  /* Tablet screens */
+  @media (max-width: 1024px) {
+    .swipper-container{
+      display: block !important;
+   }
+   .w-Swipper{
+    width: 100%  !important;
+}
+  }
+  
+  /* Mobile screens */
+  @media (max-width: 600px) {
+    body {
+      background-color: lightcoral;
+    }
+  }
