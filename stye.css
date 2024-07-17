@@ -245,6 +245,7 @@ dt {
     margin-top: -10px;
     transition: 0.5s;
     cursor: pointer;
+    box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.337);
 
 }
 .product .cards .card
@@ -653,6 +654,13 @@ footer >  div:nth-child(1) p
     .w-Swipper{
         width: 41.666667%;
     }
+    .w-refrance-policy{
+        width: 45.666667%;
+    }
+    .w-shipping-policy{
+        width: 58.333333%;
+
+    }
   }
   
   /* Tablet screens */
@@ -662,6 +670,17 @@ footer >  div:nth-child(1) p
    }
    .w-Swipper{
     width: 100%  !important;
+}
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .w-refrance-policy{
+    width: 90% ;
+  }
+  .w-shipping-policy{
+    width: 90%;
+
 }
   }
   
