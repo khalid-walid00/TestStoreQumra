@@ -264,10 +264,7 @@
   .select-Offer{
     margin-top: 2.5rem;
   }
-  .custom-footer-top{
-    top: 24rem;
-    margin-top: 48rem;
-  }
+
   /* absolute  xl:left-40 lg:left-16 top-20 w-5/12 */
   .container-section{
     position: absolute;
@@ -287,6 +284,9 @@
     display: block !important;
     
   }
+  .h-content{
+    height: 151vh;
+  }
 }
 @media  (min-width: 1300px) {
    .custom-m{
@@ -304,6 +304,10 @@
     left: 8rem;
     width: 41.666667%;
   }
+  /* .custom-footer-top{
+    top: 24rem;
+    margin-top: 48rem;
+  } */
  }
 /* Tablet screens */
 @media (max-width: 992px) {
